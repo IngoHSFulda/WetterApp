@@ -92,7 +92,7 @@ let getData = function (position) {
 
 
 let wetternow = function (position) {
-    let OpenWeatherAppKey = "5428936b1736e81627ddc139247ce7f8";
+    let OpenWeatherAppKey = "xxxxxx";
 
     let queryString =
         'https://api.openweathermap.org/data/2.5/weather?lat='
