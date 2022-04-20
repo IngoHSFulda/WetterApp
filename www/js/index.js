@@ -55,7 +55,7 @@ let getData = function (position) {
     Latitude = position.coords.latitude;
     Longitude = position.coords.longitude;
     let queryString =
-        "https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&key=AIzaSyB8EhZb4u3SoGTiC0khkqBgq2IKKFAvlz0";
+        "https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&key=";
     cordova.plugin.http.get(queryString, {
         id: '12',
         message: 'test'
@@ -124,7 +124,7 @@ let wetternow = function (position) {
 
 }
 let wetter= function (position) {
-    let OpenWeatherAppKey = "5428936b1736e81627ddc139247ce7f8";
+    let OpenWeatherAppKey = "xxxxx";
 
     let queryString =
         'https://api.openweathermap.org/data/2.5/onecall?lat='
