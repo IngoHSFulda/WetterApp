@@ -51,7 +51,7 @@ function onDeviceReady() {
 }
 
 let getData = function (position) {
-    let OpenWeatherAppKey = "5428936b1736e81627ddc139247ce7f8";
+    let OpenWeatherAppKey = "xxxxxxx";
     Latitude = position.coords.latitude;
     Longitude = position.coords.longitude;
     let queryString =
