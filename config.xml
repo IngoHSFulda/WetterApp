@@ -18,8 +18,8 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <preference name="AndroidBlacklistSecureSocketProtocols" value="SSLv3,TLSv1" />
-    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="AIzaSyB8EhZb4u3SoGTiC0khkqBgq2IKKFAvlz0" />
-    <preference name="GOOGLE_MAPS_IOS_API_KEY" value="AIzaSyB8EhZb4u3SoGTiC0khkqBgq2IKKFAvlz0" />
+    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="xxxx" />
+    <preference name="GOOGLE_MAPS_IOS_API_KEY" value="xxxxx" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
